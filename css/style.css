@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+
+    font-family: Roboto;
+    background-color: #ffff;
+}
+header .box-one{
+
+    background: #646868;
+    height: 100px;
+    width: 100%;
+}
+header img{
+    
+    position: relative;
+    width: 150px;
+    left: 150px;
+    bottom: 90px;
+}
+header p{
+
+    color: #ffff;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.nav-menu{
+
+    position: absolute;
+    right: 0px;
+    top: 35px; 
+    font-size: 110%;
+}
+.nav-menu ul{
+
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+
+    margin-right: 25px;
+}
+.nav-menu a{
+    color: #ffff;
+}
+.nav-menu li:last-child{
+
+    background-color: #ecab0f;
+    padding: 5px;
+    border-radius: 10px;  
+    border: 2px solid #ecab0f;
+}
+li:last-child:hover{
+
+    background: transparent;
+}
+.nav-menu li:first-child{
+
+    background-color: #ecab0f;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #ecab0f;
+}
+li:first-child:hover{
+
+    background: transparent;
+}
+.container button{
+
+    position: relative;
+    margin: 0 15px;
+    padding: 10px 20px;
+    left: 50%;
+    top: 600px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background: #ecab0f;
+    color: rgba(255, 165, 0,);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s;
+}
+.container button:hover{
+
+    color: #ffff;
+    background: #ecab0f;
+    box-shadow: 0 5px 5px rgba(253, 249, 253, 0.5);
+}
+.container .texts-one .text-one{
+    
+    color: #ffff;
+    font-size: 250%;
+    position: absolute;
+    right: 200px;
+    top: 530px;
+}
+.container .texts-one .text-two{
+
+    color: #ffff;
+    font-size: 150%;
+    position: absolute;
+    width: 800px;
+    right: 140px;
+    top: 600px
+}
+.container .slider{
+
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    filter: brightness(50%);
+
+}
+.container .slider ul{
+
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: animation 20s infinite alternate;
+}
+.container .slider li{
+
+    width: 100%;
+}
+.container .slider img{
+
+    width: 100%;
+}
+
+@keyframes animation {
+
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    75%{margin-left: -200%;}
+}
+
+.mid-page .texts-two .text-or1{
+
+    color: #000;
+    font-size: 100%;
+    position: absolute;
+    width: 900px;
+    right: 120px;
+    top:  125%;
+}
+.mid-page .texts-two .text-or2{
+
+    color: #000;
+    font-size: 450%;
+    position: absolute;
+    width: 900px;
+    right: 250px;
+    top: 127%;
+}
+.cards{
+    
+    position: absolute;
+    top: 145%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.cards .oradores{
+
+    width: 350px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.cards .oradores:hover{
+
+    transform: translateY(-40px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.cards .oradores img{
+
+    width: 350px;
+    height: 350px;
+}
+.cards .oradores h4{
+
+    font-weight: 600;
+}
+.cards .oradores p{
+
+    position: relative;
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    top: 2%;
+}
+.cards .oradores a{
+
+    position: relative;
+    top: 9%;
+    color: #000;
+    background-color: #ecab0f;
+    border: 2px solid #ecab0f;
+    padding: 5px;
+    border-radius: 10px;  
+}
+.cards .oradores {
+
+    font-weight: 500;
+    color: #000;
+}
+.cards .oradores a:hover{
+
+    color: #000;
+    background: transparent;
+    border: 2px solid #ecab0f;
+}
+.caja img{
+
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    top: 220%;
+}
+.caja .box-two{
+
+    position: absolute;
+    background: #4B4B4B;
+    width: 50%;
+    height: 65%;
+    top: 220%;
+    right: 0%;
+}
+.texts-three .text-three{
+
+    color: #ffff;
+    font-size: 200%;
+    position: absolute;
+    width: 800px;
+    right: 130px;
+    top: 224%;
+}
+.texts-three .text-four{
+
+    color: #ffff;
+    font-size: 105%;
+    position: absolute;
+    width: 900px;
+    right: 30px;
+    top: 230%;
+}
+.caja button{
+
+    position: absolute;
+    margin: 0 15px;
+    padding: 10px 20px;
+    left: 50%;
+    top: 242%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background: #ecab0f;
+    color: rgba(255, 165, 0,);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s;
+}
+.caja button:hover{
+
+    color: #ffff;
+    background: #ecab0f;
+    box-shadow: 0 5px 5px rgba(253, 249, 253, 0.5);
+}
+.form .texts-four .text-five{
+
+    color: #000;
+    font-size: 120%;
+    position: absolute;
+    width: 900px;
+    right: 128px;
+    top: 286%;
+}
+.form .texts-four .text-six{
+
+    color: #000;
+    font-size: 500%;
+    position: absolute;
+    width: 900px;
+    right: 200px;
+    top: 288%;
+}
+.form .texts-four .text-seven{
+
+    color: #000;
+    font-size: 120%;
+    position: absolute;
+    width: 900px;
+    right: 400px;
+    top: 297%;
+}
+.form .info input{
+
+    position: relative;
+    right: -600px;
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    font-size: 120%;
+}
+.form .info{
+
+    position: absolute;
+    top: 300%;
+}
+.form .text-area{
+
+    position: absolute;
+    top: 308%;
+    right: 640px;
+}
+.form .text-area p{
+    
+    color: #646868;
+    position: absolute;
+    font-size: 100%;
+    top: 103%;
+}
+.form button{
+
+    position: absolute;
+    top: 329%;
+    right: 31%;
+    width: 40%;
+    height: 5%;
+    font-size: 140%;
+    color: #000;
+    background-color: #ecab0f;
+    border: 2px solid #ecab0f;
+    padding: 5px;
+    border-radius: 10px;
+}
+.form button:hover{
+
+    color: #000;
+    background: transparent;
+    border: 2px solid #ecab0f;
+}
+footer .box-three{
+
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: #4B4B4B;
+    top: 335%;
+}
+footer .list-footer{
+
+    position: absolute;
+    right: 5%;
+    top: 338%; 
+    font-size: 110%;
+}
+footer .list-footer ul{
+
+    display: flex;
+    align-items: center;
+}
+footer .list-footer li{
+
+    margin-right: 100px;
+}
+footer .list-footer a{
+
+    color: #ffff;
+}
+footer .list-footer li:last-child{
+
+    width: 30%;
+}
+footer .list-footer a:hover{
+
+    color: #ecab0f;
+}
